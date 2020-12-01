@@ -1,0 +1,89 @@
+@import url("fonts.css");
+@import url("font-awesome/css/font-awesome.min.css");
+@import url("micons/micons.css");
+
+html, body {
+    height: 100%;
+}
+
+body {
+    background: #f1f1f1;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 1.7 rem;
+    line-height: 3 rem;
+    color: #6e6e6e;
+}
+
+/* ----------------------------- Main Navigation menu ----------------------------------------*/
+
+.s-header {
+    text-align: inherit;
+    text-decoration: none;
+}
+
+nav.header-nav-wrap {    
+    background-color: #151515;
+    opacity: 90%;
+    width: 100%;
+    height: 4.5rem;
+    margin-top: -10px;
+    display: inline-block;
+    position: fixed;
+    text-align: left;
+    z-index: 2;
+}
+
+.back-button {
+    font-size: 2.6rem;
+    color: #f1f1f1f;
+    margin-left: 1rem;
+    margin-top: 0.6rem;
+}
+
+.back-button a:visited {
+    color: #f1f1f1;
+}
+
+.back-button a:hover, a:focus {
+    color: #265fca;
+}
+
+#introduction {
+	background: #ffffff;
+    padding: 10rem;
+    padding-top: 5rem;
+    top: 500cm;
+}
+
+#introduction .section-intro {
+    margin: auto;
+}
+
+#introduction .section-intro p {
+    color: #333333;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 1.5rem;
+    line-height: 1.4;
+    font-weight: 666;
+    margin-bottom: 0;
+    text-align: center;
+    letter-spacing: .1rem;
+}
+#introduction .section-intro h1 {
+    color: #2552a5;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 1.8rem;
+    line-height: 1.7;
+    padding-bottom: 1rem;
+    text-align: center;
+    letter-spacing: .3rem;
+}
+
+.football-image {
+    margin: auto;
+    margin-left: 7rem;
+    width: 60rem;
+    height: 30rem;
+}
+
+
